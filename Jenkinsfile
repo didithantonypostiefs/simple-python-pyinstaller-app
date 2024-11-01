@@ -1,5 +1,5 @@
 pipeline {
-    agent server2.didith.com 
+    agent 'server2.didith.com' 
     stages {
         stage('Build') { 
             steps {
