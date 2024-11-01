@@ -1,5 +1,5 @@
 pipeline {
-    agent 'server2.didith.com' 
+    agent { label 'server2.didith.com' }
     stages {
         stage('Build') { 
             steps {
